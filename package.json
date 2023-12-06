@@ -18,13 +18,13 @@
     "bot-md",
     "multi-device"
   ],
-  "homepage": "https://github.com/PikaBotz/Anya_v2-MD#readme",
+  "homepage": "https://github.com/GeekHirushaDev/Bokiya_V1#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/PikaBotz/Anya_v2-MD"
+    "url": "git+https://github.com/GeekHirushaDev/Bokiya_V1"
   },
   "bugs": {
-    "url": "https://github.com/PikaBotz/Anya_v2-MD/issues"
+    "url": "https://github.com/GeekHirushaDev/Bokiya_V1/issues"
   },
   "author": "Pika",
   "license": "GPL-3.0",

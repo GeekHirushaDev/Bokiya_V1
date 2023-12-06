@@ -8,23 +8,23 @@ global.zApiKey = {// if this API key get expired then please go to https://www.f
 }
 
 
-global.botname = process.env.BotName || "Bokiya Developers" 
+global.botname = process.env.BotName || "Bokiya Developers WhatsApp Service" 
 global.author = process.env.Author || "@GeekHirushaDev" 
 global.packname = process.env.PackName || "Bokiya v1" 
 global.myweb = process.env.Web || "https://github.com/GeekHirushaDev" 
 global.footer = process.env.Footer || "© Bokiya Developers" 
-global.prefa = process.env.Prefix || ['`'] 
+global.prefa = process.env.Prefix || ['-'] 
 global.themeemoji = process.env.ThemeEmoji || "🎐" 
-global.ownername = process.env.Owner_Name || "GeekHirusha_Dev" 
+global.ownername = process.env.Owner_Name || "Hirusha Dayarathna" 
 global.ownernumber = process.env.Owner_Number || "94726733332" 
 global.adress = process.env.Continent || "Asia, Sri Lanka, Kegalle" 
 global.timezone = process.env.TimeZone || "Asia/Colombo" 
-global.instagramId = process.env.Insta || "GeekHirushaDev" 
+global.instagramId = process.env.Insta || "GeekHirusha_Dev" 
 global.email = process.env.Email_Id || "geekhirusha@gmail.com" 
 
 global.mongoUrl = process.env.MongoDB || "mongodb+srv://DARKSHAN:3000@cluster0.t1wsjlv.mongodb.net/"; 
 
-global.warns = process.env.Warns_Limits || 5; 
+global.warns = process.env.Warns_Limits || 3; 
 
 global.badWords = [
   "vagina",
@@ -101,26 +101,26 @@ global.message = {
 },
 
 module.exports = {
-  botname: process.env.BotName || "Bokiya Developers", 
+  botname: process.env.BotName || "Bokiya Developers WhatsApp Service", 
   author: process.env.Author || "@GeekHirushaDev",
   packname: process.env.PackName || "Bokiya v1",
   myweb: process.env.Web || "https://github.com/GeekHirushaDev",
   footer: process.env.Footer || "© Bokiya Developers",
-  prefa: process.env.Prefix || ['`'],
+  prefa: process.env.Prefix || ['-'],
   themeemoji: process.env.ThemeEmoji || "🎐",
-  ownername: process.env.Owner_Name || "GeekHirusha_Dev",
+  ownername: process.env.Owner_Name || "GeekHirushaDev",
   ownernumber: process.env.Owner_Number || "94726733332",
   adress: process.env.Continent || "Asia, Sri Lanka, Kegalle",
   timezone: process.env.TimeZone || "Asia/Colombo", 
   instagramId: process.env.Insta || "GeekHirushaDev",
   email: process.env.Email_Id || "geekhirusha@gmail.com",
-  warns: process.env.Warns_Limits || 5,
+  warns: process.env.Warns_Limits || 3,
   mongoUrl: process.env.MongoDB || "mongodb+srv://DARKSHAN:3000@cluster0.t1wsjlv.mongodb.net/",
   welcome: process.env.Welcome_Msg || '*@$user* joined this group today as $membersth member.\n\n_$prefix welcome off to disable this message._',
   left: process.env.Left_Msg || 'Ex-member *@$user* is no longer available in this group chat.\n\n_$prefix goodbye off to disable this message._',
   promote: process.env.Promote_Msg || '*@$user* has been promoted as an admin in this group.\n\n_$prefix promotem off to disable this message._',
   demote: process.env.Demote_Msg || '*@$user* has been demoted to a member in this group.\n\n_$prefix demotem off to disable this message._',
-  sessionId: process.env.SESSION_ID || "THU0eU1_Queen-Anya_kaHQ=", 
+  sessionId: process.env.SESSION_ID || "Queen Anya", 
   auto_read_status : process.env.AUTO_READ_STATUS || "true",
   alwaysonline: process.env.ALWAYS_ONLINE || "true", 
   readmessage: process.env.READ_MESSAGE || "true", 
